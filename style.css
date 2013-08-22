@@ -1,0 +1,110 @@
+body{
+		font-family: "Tahoma",Georgia,Serif;
+		/*background: #114CFA;*/
+		background: url('wood-basketball.jpg') no-repeat fixed center;
+}
+h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 50px;
+	margin-bottom: 0;
+	color: white;
+	text-shadow: 3px 3px 0px rgba(0,0,0, 1);
+}
+
+p{
+	color: white;
+	text-shadow: 3px 3px 0px rgba(0,0,0, 1);
+
+}
+
+.timer{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width:400px;
+	height:120px;
+	text-align: center;
+	font-size: 120px;
+	letter-spacing: 5px;
+	line-height: 110px;
+	color: #F72D00;
+	text-shadow: none;
+	background: black;
+	-moz-box-shadow: 0px 0px 0px 8px #A19B9A;
+	-webkit-box-shadow: 0px 0px 0px 8px #A19B9A;
+	box-shadow: 0px 0px 0px 8px #A19B9A;
+}
+
+
+.container{
+	width:1300px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FAAB00;
+	text-shadow: 2px 1px 4px #FFF;
+}
+
+.highlight{
+
+	border: 1px dashed orange;
+}
+
+.scoreContainer{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.scoreContainer div{
+	margin-top: 30px;
+	width: 520px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	float: left;
+	font-size: 300px;
+	line-height: 280px;
+}
+
+.scoreContainer .left{
+	
+	background: black;
+	-moz-box-shadow: 0px 0px 0px 8px #A19B9A;
+	-webkit-box-shadow: 0px 0px 0px 8px #A19B9A;
+	box-shadow: 0px 0px 0px 8px #A19B9A;
+}
+
+.right{
+	
+	background: black;
+	-moz-box-shadow: 0px 0px 0px 8px #A19B9A;
+	-webkit-box-shadow: 0px 0px 0px 8px #A19B9A;
+	box-shadow: 0px 0px 0px 8px #A19B9A;
+}
+
+.scoreContainer div p{
+	font-size:70px;
+	line-height: 40px;
+
+}
+
+.clear{
+	clear: both;
+}
+
+.cf:before,
+.cf:after {
+    content: ""; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
